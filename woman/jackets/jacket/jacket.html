@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин «Nîmes»</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <ul class="site-navigation">
+                    <li class="site-navigation-item nav-hover-effect">
+                        <a href="../../../categories.html" class="item-link">Woman</a>
+                    </li>
+                    <li class="site-navigation-item nav-hover-effect">
+                        <a href="../../../categories.html" class="item-link">Man</a>
+                    </li>
+                    <li class="site-navigation-item nav-hover-effect">
+                        <a href="#" class="item-link">New</a>
+                    </li>
+                </ul>
+                <a href="../../../index.html" class="main-header-logo">
+                    <svg class="user-navigation-icon" width="73" height="19">
+                        <use xlink:href="../../../img/icons.svg#logo"></use>
+                    </svg>
+                </a>
+                <ul class="user-navigation">
+                    <div class="menu_burger"><span></span></div>
+                    <li class="user-navigation-item">
+                        <a href="#" class="item-link">
+                            <svg width="20" height="18">
+                                <use xlink:href="../../../img/icons.svg#basket"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="user-navigation-item">
+                        <a href="#" class="item-link">
+                            <svg class="user-navigation-icon" width="18" height="18">
+                                <use xlink:href="../../../img/icons.svg#search"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs-item"><a href="../../../categories.html" class="breadcrumbs-link">All categories</a></li>
+            <li class="breadcrumbs-item"><a href="../jackets.html" class="breadcrumbs-link">Woman</a></li>
+            <li class="breadcrumbs-item"><a href="../jackets.html" class="breadcrumbs-link">Jackets</a></li>
+            <li class="breadcrumbs-item breadcrumbs-current">Jacket</li>
+        </ul>
+    </div>
+        <section class="card">
+            <div class="container">
+                <div class="card-wrapper">
+                    <div class="card-img-column">
+                        <div class="slider">
+                            <div class="slider-big">
+                                <div class="slider-big-line">
+                                    <img src="slide1.jpg" alt="" class="slide-big">
+                                    <img src="slide2.jpg" alt="" class="slide-big">
+                                    <img src="slide3.jpg" alt="" class="slide-big">
+                                    <img src="slide4.jpg" alt="" class="slide-big">
+                                    <img src="slide5.jpg" alt="" class="slide-big">
+                                    <img src="slide6.jpg" alt="" class="slide-big">
+                                </div>
+                            </div>
+                            <div class="slider-small">
+                                <div class="slider-small-line">
+                                    <img src="slide1.jpg" alt="" class="slide-small active">
+                                    <img src="slide2.jpg" alt="" class="slide-small">
+                                    <img src="slide3.jpg" alt="" class="slide-small">
+                                    <img src="slide4.jpg" alt="" class="slide-small">
+                                    <img src="slide5.jpg" alt="" class="slide-small">
+                                    <img src="slide6.jpg" alt="" class="slide-small">
+                                </div>
+                            </div>
+                            <button class="btn-next">&rsaquo;</button>
+                            <button class="btn-prev">&lsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="card-description-column">
+                        <h2 class="card-title">Overalls</h2>
+                        <p class="card-description">Overalls in washed organic cotton denim. Collar, button fly, and
+                            adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight
+                            legs with front pockets and back pockets.</p>
+                        <p class="card-color-picker">Color</p>
+                        <input type="radio" name="color" id="color1" class="card-color card-color1">
+                        <label for="color1" class="label-card-color"></label>
+                        <input type="radio" checked name="color" id="color2" class="card-color card-color2">
+                        <label for="color2" class="label-card-color"></label>
+                        <input type="radio" name="color" id="color3" class="card-color card-color3">
+                        <label for="color3" class="label-card-color"></label>
+                        <p class="card-size-picker">Size</p>
+                        <input type="radio" name="size" id="sizeXS" class="card-size">
+                        <label for="sizeXS" class="label-card-size">XS</label>
+                        <input type="radio" name="size" id="sizeS" class="card-size">
+                        <label for="sizeS" class="label-card-size">S</label>
+                        <input type="radio" name="size" id="sizeM" class="card-size" checked>
+                        <label for="sizeM" class="label-card-size">M</label>
+                        <input type="radio" name="size" id="sizeL" class="card-size">
+                        <label for="sizeL" class="label-card-size">L</label>
+                        <input type="radio" name="size" id="sizeXL" class="card-size">
+                        <label for="sizeXL" class="label-card-size">XL</label>
+                        <p class="card-price">$160</p>
+                        <a href="#" class="black-button">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="similar">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Bestsellers</h2>
+                    <a href="#" class="show-more">View all</a>
+                </header>
+                <ul class="catalog-list">
+                    <li class="catalog-item">
+                        <a href="#" class="catalog-item-link">
+                            <img src="photo3.jpg" alt="Jacket" width="270" height="349" class="catalog-item-photo">
+                            <h3 class="catalog-item-title">Jacket</h3>
+                            <p class="catalog-item-price">$140</p>
+                        </a>
+                    </li>
+                    <li class="catalog-item">
+                        <a href="#" class="catalog-item-link">
+                            <img src="photo4.jpg" alt="Overalls" width="270" height="349" class="catalog-item-photo">
+                            <h3 class="catalog-item-title">Overalls</h3>
+                            <p class="catalog-item-price">$110</p>
+                        </a>
+                    </li>
+                    <li class="catalog-item">
+                        <a href="#" class="catalog-item-link">
+                            <img src="photo1.jpg" alt="Jacket" width="270" height="349" class="catalog-item-photo">
+                            <h3 class="catalog-item-title">Jacket</h3>
+                            <p class="catalog-item-price">$70</p>
+                        </a>
+                    </li>
+                    <li class="catalog-item">
+                        <a href="#" class="catalog-item-link">
+                            <img src="photo2.jpg" alt="Overalls" width="270" height="349" class="catalog-item-photo">
+                            <h3 class="catalog-item-title">Jacket</h3>
+                            <p class="catalog-item-price">$60</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <svg class="footer-logo" width="73" height="19">
+                    <use xlink:href="../../../img/icons.svg#logo"></use>
+                </svg>
+                <ul class="footer-navigation">
+                    <li class="footer-navigation-item nav-hover-effect"><a href="#"
+                            class="footer-navigation-link">Shop</a></li>
+                    <li class="footer-navigation-item nav-hover-effect"><a href="#"
+                            class="footer-navigation-link">Delivery</a></li>
+                    <li class="footer-navigation-item nav-hover-effect"><a href="#"
+                            class="footer-navigation-link">Service</a></li>
+                    <li class="footer-navigation-item nav-hover-effect"><a href="#"
+                            class="footer-navigation-link">Sitemap</a></li>
+                    <li class="footer-navigation-item nav-hover-effect"><a href="#"
+                            class="footer-navigation-link">Contacts</a></li>
+                </ul>
+                <ul class="social">
+                    <li class="social-item"><a href="#" class="social-link">
+                            <svg class="footer-icon" width="12" height="20">
+                                <use xlink:href="../../../img/icons.svg#facebook"></use>
+                            </svg>
+                        </a></li>
+                    <li class="social-item"><a href="#" class="social-link">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use xlink:href="../../../img/icons.svg#instagram"></use>
+                            </svg>
+                        </a></li>
+                    <li class="social-item"><a href="#" class="social-link">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use xlink:href="../../../img/icons.svg#pinterest"></use>
+                            </svg>
+                        </a></li>
+                    <li class="social-item"><a href="#" class="social-link">
+                            <svg class="footer-icon" width="22" height="20">
+                                <use xlink:href="../../../img/icons.svg#twitter"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../../../scripts/main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
